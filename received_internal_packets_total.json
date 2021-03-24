@@ -1,0 +1,155 @@
+{
+    "data": {
+        "result": [
+            {
+                "metric": {
+                    "__name__": "received_internal_packets_total",
+                    "app_kubernetes_io_instance": "acme-qcc",
+                    "app_kubernetes_io_managed_by": "Harri",
+                    "app_kubernetes_io_name": "acme-qc-vpn-gw",
+                    "app_kubernetes_io_version": "1.54.357-3",
+                    "Harri_sh_chart": "acme-qc-vpn-gw-1.54.357-3",
+                    "instance": "10.1.234.567:8443",
+                    "job": "kubernetes-pods",
+                    "kubernetes_namespace": "default",
+                    "kubernetes_pod_name": "acme-qc-vpn-gw-6664ddfd5-n5zdd",
+                    "pod_template_hash": "6664ddfd5",
+                    "reason": "invalid_vpn",
+                    "status": "drop"
+                },
+                "value": [
+                    "2021-03-15T09:31:13Z",
+                    "0"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "received_internal_packets_total",
+                    "app_kubernetes_io_instance": "acme-qcc",
+                    "app_kubernetes_io_managed_by": "Harri",
+                    "app_kubernetes_io_name": "acme-qc-vpn-gw",
+                    "app_kubernetes_io_version": "1.54.357-3",
+                    "Harri_sh_chart": "acme-qc-vpn-gw-1.54.357-3",
+                    "instance": "10.1.234.567:8443",
+                    "job": "kubernetes-pods",
+                    "kubernetes_namespace": "default",
+                    "kubernetes_pod_name": "acme-qc-vpn-gw-6664ddfd5-n5zdd",
+                    "pod_template_hash": "6664ddfd5",
+                    "reason": "no_peer",
+                    "status": "drop"
+                },
+                "value": [
+                    "2021-03-15T09:31:13Z",
+                    "0"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "received_internal_packets_total",
+                    "app_kubernetes_io_instance": "acme-qcc",
+                    "app_kubernetes_io_managed_by": "Harri",
+                    "app_kubernetes_io_name": "acme-qc-vpn-gw",
+                    "app_kubernetes_io_version": "1.54.357-3",
+                    "Harri_sh_chart": "acme-qc-vpn-gw-1.54.357-3",
+                    "instance": "10.1.234.567:8443",
+                    "job": "kubernetes-pods",
+                    "kubernetes_namespace": "default",
+                    "kubernetes_pod_name": "acme-qc-vpn-gw-6664ddfd5-n5zdd",
+                    "pod_template_hash": "6664ddfd5",
+                    "reason": "no_vip",
+                    "status": "drop"
+                },
+                "value": [
+                    "2021-03-15T09:31:13Z",
+                    "0"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "received_internal_packets_total",
+                    "app_kubernetes_io_instance": "acme-qcc",
+                    "app_kubernetes_io_managed_by": "Harri",
+                    "app_kubernetes_io_name": "acme-qc-vpn-gw",
+                    "app_kubernetes_io_version": "1.54.357-3",
+                    "Harri_sh_chart": "acme-qc-vpn-gw-1.54.357-3",
+                    "instance": "10.1.234.567:8443",
+                    "job": "kubernetes-pods",
+                    "kubernetes_namespace": "default",
+                    "kubernetes_pod_name": "acme-qc-vpn-gw-6664ddfd5-n5zdd",
+                    "pod_template_hash": "6664ddfd5",
+                    "status": "accept",
+                    "type": "fwd_heartbeat"
+                },
+                "value": [
+                    "2021-03-15T09:31:13Z",
+                    "0"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "received_internal_packets_total",
+                    "app_kubernetes_io_instance": "acme-qcc",
+                    "app_kubernetes_io_managed_by": "Harri",
+                    "app_kubernetes_io_name": "acme-qc-vpn-gw",
+                    "app_kubernetes_io_version": "1.54.357-3",
+                    "Harri_sh_chart": "acme-qc-vpn-gw-1.54.357-3",
+                    "instance": "10.1.234.567:8443",
+                    "job": "kubernetes-pods",
+                    "kubernetes_namespace": "default",
+                    "kubernetes_pod_name": "acme-qc-vpn-gw-6664ddfd5-n5zdd",
+                    "pod_template_hash": "6664ddfd5",
+                    "status": "accept",
+                    "type": "heartbeat"
+                },
+                "value": [
+                    "2021-03-15T09:31:13Z",
+                    "39041"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "received_internal_packets_total",
+                    "app_kubernetes_io_instance": "acme-qcc",
+                    "app_kubernetes_io_managed_by": "Harri",
+                    "app_kubernetes_io_name": "acme-qc-vpn-gw",
+                    "app_kubernetes_io_version": "1.54.357-3",
+                    "Harri_sh_chart": "acme-qc-vpn-gw-1.54.357-3",
+                    "instance": "10.1.234.567:8443",
+                    "job": "kubernetes-pods",
+                    "kubernetes_namespace": "default",
+                    "kubernetes_pod_name": "acme-qc-vpn-gw-6664ddfd5-n5zdd",
+                    "pod_template_hash": "6664ddfd5",
+                    "status": "accept",
+                    "type": "loopback"
+                },
+                "value": [
+                    "2021-03-15T09:31:13Z",
+                    "0"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "received_internal_packets_total",
+                    "app_kubernetes_io_instance": "acme-qcc",
+                    "app_kubernetes_io_managed_by": "Harri",
+                    "app_kubernetes_io_name": "acme-qc-vpn-gw",
+                    "app_kubernetes_io_version": "1.54.357-3",
+                    "Harri_sh_chart": "acme-qc-vpn-gw-1.54.357-3",
+                    "instance": "10.1.234.567:8443",
+                    "job": "kubernetes-pods",
+                    "kubernetes_namespace": "default",
+                    "kubernetes_pod_name": "acme-qc-vpn-gw-6664ddfd5-n5zdd",
+                    "pod_template_hash": "6664ddfd5",
+                    "status": "accept",
+                    "type": "payload"
+                },
+                "value": [
+                    "2021-03-15T09:31:13Z",
+                    "98"
+                ]
+            }
+        ],
+        "resultType": "vector"
+    },
+    "status": "success"
+}

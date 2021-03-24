@@ -1,0 +1,10 @@
+*.class
+*.pyc
+*.swp
+.DS_Store
+.vs
+.phpunit.result.cache
+.idea
+.venv
+venv
+

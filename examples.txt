@@ -1,0 +1,43 @@
+test@acme-prompt#metrics_query_stats.py sent_internal_packets_total
+sent_internal_packets_total
+Timestamp            Type          Value  Pod-Name
+2021-03-15T09:30:08Z icmq          0      acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:30:08Z payload       57     acme-qc-vpn-gw-6664ddfd5-n5zdd
+
+test@acme-prompt#metrics_query_stats.py received_internal_packets_total
+received_internal_packets_total
+Timestamp            Type          Value Reason/Type        Pod-Name
+2021-03-15T09:31:13Z drop          0     invalid_vpn        acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z drop          0     no_peer            acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z drop          0     no_vip             acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z accept        0     icmq               acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z accept        57    payload            acme-qc-vpn-gw-6664ddfd5-n5zdd
+
+test@acme-prompt#metrics_query_stats.py sent_internal_packets_total received_internal_packets_total
+sent_internal_packets_total
+Timestamp            Type          Value  Pod-Name
+2021-03-15T09:30:08Z icmq          0      acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:30:08Z payload       57     acme-qc-vpn-gw-6664ddfd5-n5zdd
+
+received_internal_packets_total
+Timestamp            Type          Value Reason/Type        Pod-Name
+2021-03-15T09:31:13Z drop          0     invalid_vpn        acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z drop          0     no_peer            acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z drop          0     no_vip             acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z accept        0     icmq               acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z accept        57    payload            acme-qc-vpn-gw-6664ddfd5-n5zdd
+
+
+test@acme-prompt#metrics_query_stats.py --delta sent_internal_packets_total received_internal_packets_total
+sent_internal_packets_total DELTA received_internal_packets_total
+Timestamp            Type          Delta  Pod-Name
+2021-03-15T09:30:08Z icmq          0      acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:30:08Z payload       0      acme-qc-vpn-gw-6664ddfd5-n5zdd
+
+received_internal_packets_total DELTA sent_internal_packets_total
+Timestamp            Status        Delta Reason/Type        Pod-Name
+2021-03-15T09:31:13Z drop          NA    invalid_vpn        acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z drop          NA    no_peer            acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z drop          NA    no_vip             acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z accept        0     icmq               acme-qc-vpn-gw-6664ddfd5-n5zdd
+2021-03-15T09:31:13Z accept        0     payload            acme-qc-vpn-gw-6664ddfd5-n5zdd
